@@ -14,28 +14,29 @@ struct ContentView: View {
                 .toolbar{
                     ToolbarItemGroup(placement: .navigationBarLeading){
                         Text("친구")
+                            .font(.title)
                     }
                     ToolbarItemGroup(placement: .navigationBarTrailing){
-                        Button(action: {
-                            
-                        }, label: {
-                            Image(systemName: "magnifyingglass")
-                        })
-                        Button(action: {
-                            
-                        }, label: {
-                            Image(systemName: "person.badge.plus")
-                        })
-                        Button(action: {
-                            
-                        }, label: {
-                            Image(systemName: "tv.music.note")
-                        })
-                        Button(action: {
-                            
-                        }, label: {
-                            Image(systemName: "gearshape")
-                        })
+                        NavigationLink(
+                            destination: SearchView(),
+                            label: {
+                                Image(systemName: "magnifyingglass")
+                            })
+                        NavigationLink(
+                            destination: SearchView(),
+                            label: {
+                                Image(systemName: "person.badge.plus")
+                            })
+                        NavigationLink(
+                            destination: SearchView(),
+                            label: {
+                                Image(systemName: "tv.music.note")
+                            })
+                        NavigationLink(
+                            destination: SearchView(),
+                            label: {
+                                Image(systemName: "gearshape")
+                            })
                     }
                 }
         }
