@@ -9,8 +9,34 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            Text("some text")
+                .navigationTitle("친구")
+                .toolbar{
+                    ToolbarItemGroup(placement: .navigationBarTrailing){
+                        Button(action: {
+                            
+                        }, label: {
+                            Image(systemName: "magnifyingglass")
+                        })
+                        Button(action: {
+                            
+                        }, label: {
+                            Image(systemName: "person.badge.plus")
+                        })
+                        Button(action: {
+                            
+                        }, label: {
+                            Image(systemName: "tv.music.note")
+                        })
+                        Button(action: {
+                            
+                        }, label: {
+                            Image(systemName: "gearshape")
+                        })
+                    }
+                }
+        }
     }
 }
 
