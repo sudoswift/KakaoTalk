@@ -32,7 +32,7 @@
 		<key>UIColorName</key>
 		<string>launchColor</string>
 		<key>UIImageName</key>
-		<string></string>
+		<string>launchLogo</string>
 	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

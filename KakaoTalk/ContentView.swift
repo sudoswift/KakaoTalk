@@ -15,30 +15,17 @@ struct ContentView: View {
                     ToolbarItemGroup(placement: .navigationBarLeading){
                         Text("친구")
                             .font(.title)
-                    }
+                    } // ToolbarItemGroup Leading
                     ToolbarItemGroup(placement: .navigationBarTrailing){
-                        NavigationLink(
-                            destination: SearchView(),
-                            label: {
-                                Image(systemName: "magnifyingglass")
-                            })
-                        NavigationLink(
-                            destination: SearchView(),
-                            label: {
-                                Image(systemName: "person.badge.plus")
-                            })
-                        NavigationLink(
-                            destination: SearchView(),
-                            label: {
-                                Image(systemName: "tv.music.note")
-                            })
-                        NavigationLink(
-                            destination: SearchView(),
-                            label: {
-                                Image(systemName: "gearshape")
-                            })
-                    }
-                }
+                        Image(systemName: "magnifyingglass")
+                            .padding(.trailing, 6.0)
+                        Image(systemName: "person.badge.plus")
+                            .padding(.trailing, 6.0)
+                        Image(systemName: "music.note")
+                            .padding(.trailing, 6.0)
+                        Image(systemName: "gearshape")
+                    } // ToolbarItemGroup Trailing
+                } // toolbar
         }
     }
 }
@@ -46,5 +33,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            
     }
 }
