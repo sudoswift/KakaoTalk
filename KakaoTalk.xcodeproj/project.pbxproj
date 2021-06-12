@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6F3DEE382673A82900BA64C5 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3DEE372673A82900BA64C5 /* FriendView.swift */; };
+		6F81D1282674B1B500AD1650 /* FriendsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F81D1272674B1B500AD1650 /* FriendsList.swift */; };
+		6F81D12A2674B33C00AD1650 /* FriendsProfileNoMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F81D1292674B33C00AD1650 /* FriendsProfileNoMusic.swift */; };
 		6FA691D52674AE5E005B47EB /* FriendsProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA691D42674AE5E005B47EB /* FriendsProfile.swift */; };
 		6FA691D72674AEC0005B47EB /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA691D62674AEC0005B47EB /* MyProfile.swift */; };
 		6FEF3DCB26734AB5003F7AD6 /* KakaoTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEF3DCA26734AB5003F7AD6 /* KakaoTalkApp.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		6F3DEE372673A82900BA64C5 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
+		6F81D1272674B1B500AD1650 /* FriendsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsList.swift; sourceTree = "<group>"; };
+		6F81D1292674B33C00AD1650 /* FriendsProfileNoMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsProfileNoMusic.swift; sourceTree = "<group>"; };
 		6FA691D42674AE5E005B47EB /* FriendsProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsProfile.swift; sourceTree = "<group>"; };
 		6FA691D62674AEC0005B47EB /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
 		6FEF3DC726734AB5003F7AD6 /* KakaoTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +48,9 @@
 			children = (
 				6F3DEE372673A82900BA64C5 /* FriendView.swift */,
 				6FA691D42674AE5E005B47EB /* FriendsProfile.swift */,
+				6F81D1292674B33C00AD1650 /* FriendsProfileNoMusic.swift */,
 				6FA691D62674AEC0005B47EB /* MyProfile.swift */,
+				6F81D1272674B1B500AD1650 /* FriendsList.swift */,
 			);
 			path = FriendView;
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 				6FA691D72674AEC0005B47EB /* MyProfile.swift in Sources */,
 				6FA691D52674AE5E005B47EB /* FriendsProfile.swift in Sources */,
 				6F3DEE382673A82900BA64C5 /* FriendView.swift in Sources */,
+				6F81D12A2674B33C00AD1650 /* FriendsProfileNoMusic.swift in Sources */,
 				6FEF3DCB26734AB5003F7AD6 /* KakaoTalkApp.swift in Sources */,
+				6F81D1282674B1B500AD1650 /* FriendsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
