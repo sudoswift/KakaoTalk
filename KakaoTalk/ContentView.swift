@@ -11,17 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView{
             NavigationView{
-                List{
-                    MyProfile()
-                    Section(header:
-                                Text("친구 102")
-                                .font(.footnote)
-                                .foregroundColor(.secondary)
-                    ){
-                        FriendsList()
-                    } // Section
-                } // List
-                .listStyle(SidebarListStyle())
+                FriendView()
     .toolbar{
         ToolbarItem(placement: .navigationBarLeading){
             Text("친구")
@@ -60,6 +50,7 @@ struct ContentView: View {
             }
         } // ToolbarItemGroup Trailing
     } // toolbar
+
 } // NavigationView
 .accentColor(.black) //NavigationView에 accentColor를 적용해주면 toolbar의 색을 지정해줄 수 있다.
         } // TabView
