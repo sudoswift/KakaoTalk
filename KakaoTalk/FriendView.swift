@@ -9,18 +9,20 @@ import SwiftUI
 
 struct FriendView: View {
     var body: some View {
-        HStack{
-            Image("sudo_boo")
-                .resizable()
-                .scaledToFill()
-                .clipShape(Circle())
-                .frame(width: 80, height: 80)
-            VStack{
-                Text("스위프트")
-                    .font(.title2)
-                    .padding(.bottom, 5)
-                Text("boooo")
-                    .foregroundColor(.secondary)
+        List{
+            HStack{
+                Image("sudo_boo")
+                    .resizable()
+                    .scaledToFill()
+                    .clipShape(Rectangle())
+                    .cornerRadius(25)
+                    .frame(width: 80, height: 80)
+                VStack(alignment: .leading){
+                    Text("스위프트")
+                        .font(.title2)
+                    Text("boooo")
+                        .foregroundColor(.secondary)
+                }
             }
         }
     }
