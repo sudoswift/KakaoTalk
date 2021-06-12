@@ -1,5 +1,5 @@
 //
-//  FriendMyProfile.swift
+//  MyProfile.swift
 //  KakaoTalk
 //
 //  Created by izvern on 2021/06/12.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FriendMyProfile: View {
+struct MyProfile: View {
     var body: some View {
         HStack{
             Image("sudo_boo")
@@ -27,8 +27,8 @@ struct FriendMyProfile: View {
     }
 }
 
-struct FriendMyProfile_Previews: PreviewProvider {
+struct MyProfile_Previews: PreviewProvider {
     static var previews: some View {
-        FriendMyProfile()
+        MyProfile()
     }
 }

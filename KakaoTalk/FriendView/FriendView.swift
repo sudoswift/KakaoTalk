@@ -10,50 +10,15 @@ import SwiftUI
 struct FriendView: View {
     var body: some View {
         List{
-                FriendMyProfile()
+            MyProfile()
             Section(header:
                         Text("친구 102")
                         .font(.footnote)
                         .foregroundColor(.secondary)
             ){
-                HStack{
-                    Image("김태균")
-                        .resizable()
-                        .scaledToFill()
-                        .clipShape(Circle())
-//                        .padding(.trailing)
-                        .cornerRadius(25)
-                        .frame(width: 50, height: 50)
-                    VStack(alignment: .leading){
-                        Text("김태균")
-                            .font(.title3)
-                        Text("한화이글스")
-                            .font(.footnote)
-                            .foregroundColor(.secondary)
-                    } // VStack
-                    Group{
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                        Spacer()
-                    }
-                    HStack {
-                        Text("도망가자 (Run With Me)-선우정아")
-                            .font(.footnote)
-                            .lineLimit(1)
-                        Image(systemName: "play")
-                            .foregroundColor(.green)
-                    }
-                    .padding(6)
-                    .overlay(
-                    RoundedRectangle(cornerRadius: 25.0)
-                        .stroke(Color.green, lineWidth: 1.5)
-                            )
-                } // HStack
-            } // Section
+                FriendsProfile(pfImage: "김태균", name: "김태균", stateMsg: "한화이글스", musicName: "도망가자 (Run With Me) - 선우정아")
+                FriendsProfile(pfImage: "양현종", name: "양현종", stateMsg: "기아타이거즈", musicName: "Dun Dun Dance - 오마이걸(OH MY GIRL)")
+            }
         } // List
         .listStyle(SidebarListStyle())
     }
