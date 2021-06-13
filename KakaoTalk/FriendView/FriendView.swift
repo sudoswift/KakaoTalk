@@ -12,6 +12,13 @@ struct FriendView: View {
             List{
                 MyProfile()
                 Section(header:
+                Text("내 멀티프로필")
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
+                ){
+                    MultiProfile()
+                } // Section
+                Section(header:
                             Text("친구 102")
                             .font(.footnote)
                             .foregroundColor(.secondary)
@@ -20,6 +27,7 @@ struct FriendView: View {
                 } // Section
             } // List
             .listStyle(SidebarListStyle())
+            .navigationTitle("")
         }
     }
 
