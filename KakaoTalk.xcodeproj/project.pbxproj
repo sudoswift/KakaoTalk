@@ -94,10 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				6F3DEE372673A82900BA64C5 /* FriendView.swift */,
+				6F81D1272674B1B500AD1650 /* FriendsList.swift */,
 				6FA691D42674AE5E005B47EB /* FriendsProfile.swift */,
 				6F81D1292674B33C00AD1650 /* FriendsProfileNoMusic.swift */,
 				6FA691D62674AEC0005B47EB /* MyProfile.swift */,
-				6F81D1272674B1B500AD1650 /* FriendsList.swift */,
 				6F8A4DA42675EB9800B616D0 /* FriendViewToolbar.swift */,
 				6F44D4F026763DCF00123C80 /* fourSection.swift */,
 			);
