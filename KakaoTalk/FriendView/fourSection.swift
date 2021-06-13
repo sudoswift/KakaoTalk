@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MultiProfile: View {
+struct fourSection: View {
     var Fcolor: Color
     var Fsymbol: String
     var Fmsg: String
@@ -27,8 +27,8 @@ struct MultiProfile: View {
     }
 }
 
-struct MultiProfile_Previews: PreviewProvider {
+struct fourSection_Previews: PreviewProvider {
     static var previews: some View {
-        MultiProfile(Fcolor: Color.secondary, Fsymbol: "plus", Fmsg: "친구별로 다른 프로필을 설정해보세요!")
+        fourSection(Fcolor: Color.secondary, Fsymbol: "plus", Fmsg: "친구별로 다른 프로필을 설정해보세요!")
     }
 }
