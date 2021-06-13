@@ -7,3 +7,6 @@ using SwiftUI
 ## ToolBar Items Color
 - [googling keyword](https://www.google.com/search?q=swiftui+toolbar+item+color)
 - [stackoverflow](https://stackoverflow.com/questions/64467504/how-to-change-color-of-toolbaritem-with-navigationbarleading-placement-in-swiftu)
+
+## SidebarListStyle Bug fix
+- [stackoverflow](https://stackoverflow.com/questions/67950072/swiftui-sidebarliststyle-inside-of-navigationviews-style?noredirect=1#comment120108117_67950072)
