@@ -27,6 +27,7 @@ struct FriendsProfileNoMusic: View {
                 Text(stateMsg)
                     .font(.footnote)
                     .foregroundColor(.secondary)
+                    .lineLimit(1)
             } // VStack
             Group{
                 Spacer()

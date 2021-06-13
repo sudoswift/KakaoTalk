@@ -28,6 +28,7 @@ struct FriendsProfile: View {
                     Text(stateMsg)
                         .font(.footnote)
                         .foregroundColor(.secondary)
+                        .lineLimit(1)
                 } // VStack
                 Group{
                     Spacer()
@@ -50,6 +51,7 @@ struct FriendsProfile: View {
                 RoundedRectangle(cornerRadius: 25.0)
                     .stroke(Color.green, lineWidth: 1.5)
                         )
+                .frame(width: 150)
             } // HStack
     }
 }

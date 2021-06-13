@@ -52,6 +52,7 @@ struct ContentView: View {
     } // toolbar
 } // NavigationView
 .accentColor(.black) //NavigationView에 accentColor를 적용해주면 toolbar의 색을 지정해줄 수 있다.
+            .navigationViewStyle(StackNavigationViewStyle())
         } // TabView
     }
 }
