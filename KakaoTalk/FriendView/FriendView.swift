@@ -16,15 +16,44 @@ struct FriendView: View {
                         .font(.footnote)
                         .foregroundColor(.secondary)
                 ){
-                    MultiProfile()
-                } // Section
+                    NavigationLink(destination: Text("생일인 친구")){
+                        MultiProfile(Fcolor: Color.secondary, Fsymbol: "plus", Fmsg: "친구별로 다른 프로필을 설정해보세요!")
+                    }
+                } // Section 1
+                Section(header:
+                Text("생일인 친구")
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
+                ){
+                    NavigationLink(destination: Text("생일인 친구")){
+                        MultiProfile(Fcolor: Color.pink, Fsymbol: "crown", Fmsg: "친구의 생일을 확인해보세요!")
+                    }
+                } // Section 2
+                Section(header:
+                Text("추천 친구")
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
+                ){
+                    NavigationLink(destination: Text("추천 친구")){
+                        MultiProfile(Fcolor: Color.purple, Fsymbol: "faceid", Fmsg: "새로운 친구를 만나보세요!")
+                    }
+                } // Section 3
+                Section(header:
+                Text("추천 친구")
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
+                ){
+                    NavigationLink(destination: Text("채널")){
+                        MultiProfile(Fcolor: Color.yellow, Fsymbol: "message", Fmsg: "채널")
+                    }
+                } // Section 4
                 Section(header:
                             Text("친구 102")
                             .font(.footnote)
                             .foregroundColor(.secondary)
                 ){
                     FriendsList()
-                } // Section
+                } // Section 5
             } // List
             .listStyle(SidebarListStyle())
             .navigationTitle("")

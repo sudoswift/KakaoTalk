@@ -8,15 +8,20 @@
 import SwiftUI
 
 struct MultiProfile: View {
+    var Fcolor: Color
+    var Fsymbol: String
+    var Fmsg: String
+    
     var body: some View {
         HStack{
             RoundedRectangle(cornerRadius: 25, style: .continuous)
-                .fill(Color.gray)
+                .fill(Fcolor)
                 .frame(width: 50, height: 50)
                 .overlay(
-                Image(systemName: "plus")
+                Image(systemName: Fsymbol)
+                    .font(.title2)
                 )
-            Text("친구별로 다른 프로필을 설정해보세요!")
+            Text(Fmsg)
                 .font(.title3)
         }
     }
@@ -24,6 +29,6 @@ struct MultiProfile: View {
 
 struct MultiProfile_Previews: PreviewProvider {
     static var previews: some View {
-        MultiProfile()
+        MultiProfile(Fcolor: Color.secondary, Fsymbol: "plus", Fmsg: "친구별로 다른 프로필을 설정해보세요!")
     }
 }
