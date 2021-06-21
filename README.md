@@ -10,3 +10,6 @@ using SwiftUI
 
 ## SidebarListStyle Bug fix
 - [stackoverflow](https://stackoverflow.com/questions/67950072/swiftui-sidebarliststyle-inside-of-navigationviews-style?noredirect=1#comment120108117_67950072)
+
+## References
+- [NavigationView 내부에 TabView 넣기](https://seons-dev.tistory.com/136)
