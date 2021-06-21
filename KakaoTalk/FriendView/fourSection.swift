@@ -16,13 +16,14 @@ struct fourSection: View {
         HStack{
             RoundedRectangle(cornerRadius: 25, style: .continuous)
                 .fill(Fcolor)
-                .frame(width: 50, height: 50)
+                .frame(width: 35, height: 35)
                 .overlay(
                 Image(systemName: Fsymbol)
-                    .font(.title2)
+                    .font(.title3)
+                    .foregroundColor(.white)
                 )
             Text(Fmsg)
-                .font(.title3)
+                .font(.system(size: 18))
         }
     }
 }

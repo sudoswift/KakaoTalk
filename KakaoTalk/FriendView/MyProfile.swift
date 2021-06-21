@@ -19,9 +19,10 @@ struct MyProfile: View {
                 .frame(width: 60, height: 60)
             VStack(alignment: .leading){
                 Text("스위프트")
-                    .font(.title2)
+                    .font(.system(size: 20))
                 Text("boooo")
                     .foregroundColor(.secondary)
+                    .font(.system(size: 15))
             }
         } // HStack
     }

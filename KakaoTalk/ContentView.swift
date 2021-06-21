@@ -8,43 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection = 0
     var body: some View {
-
+        TabView{
             NavigationView{
                     FriendView()
                     .toolbar{
-                        ToolbarItemGroup(placement: .navigationBarLeading){
+                        ToolbarItem(placement: .navigationBarLeading){
                             Text("친구").font(.title)
                         } //ToolbarItemGroup Leading
                         ToolbarItemGroup(placement: .navigationBarTrailing){
                             FriendViewToolbar()
                         } // ToolbarItemGroup Trailing
-                        ToolbarItemGroup(placement: .bottomBar){
-                            Image(systemName: "person")
-                                .font(.system(size: 25))
-                                .padding(.horizontal, 20)
-                            Image(systemName: "message")
-                                .font(.system(size: 25))
-                                .padding(.horizontal, 20)
-                            Image(systemName: "number")
-                                .font(.system(size: 25))
-                                .padding(.horizontal, 20)
-                            Image(systemName: "bag")
-                                .font(.system(size: 25))
-                                .padding(.horizontal, 20)
-                            Image(systemName: "line.horizontal.3")
-                                .font(.system(size: 25))
-                                .padding(.horizontal, 20)
-                        } // ToolbarItemGroup BottomBar
                     } // FreindView's Toolbar
                         .navigationBarTitle("", displayMode: .inline)
                         .navigationBarHidden(false)
-            } // NavigationView
-            .accentColor(.red) //NavigationView에 accentColor를 적용해주면 toolbar의 색을 지정해줄 수 있다.
+            } // NavigationView 1
+            .tabItem {
+                Image(systemName: "person")
+            }
+//            .accentColor(.white) //NavigationView에 accentColor를 적용해주면 toolbar의 색을 지정해줄 수 있다.
             .navigationViewStyle(StackNavigationViewStyle())
-        }
+            
+            NavigationView{
+                
+            } // Navigation View 2
+            .tabItem {
+                Image(systemName: "message")
+            }
+        } // TabView
+
     }
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
