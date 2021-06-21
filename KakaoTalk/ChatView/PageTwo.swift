@@ -10,11 +10,13 @@ import SwiftUI
 struct PageTwo: View {
     var body: some View {
         NavigationView{
-            
+            Text("ChatView")
+            .navigationBarTitle("", displayMode: .inline)
+            .navigationBarHidden(false)
         } // Navigation View 2
         .tabItem {
             Image(systemName: "message")
-        }
+        } // tabItem
     }
 }
 

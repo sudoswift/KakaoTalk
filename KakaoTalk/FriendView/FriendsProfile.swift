@@ -20,7 +20,6 @@ struct FriendsProfile: View {
                     .scaledToFill()
                     .clipShape(Circle())
 //                        .padding(.trailing)
-                    .cornerRadius(25)
                     .frame(width: 50, height: 50)
                 VStack(alignment: .leading){
                     Text(name)
