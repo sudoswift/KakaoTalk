@@ -10,7 +10,6 @@ import SwiftUI
 struct FriendViewToolbar: View {
     var body: some View {
         HStack{
-            Spacer()
             NavigationLink(
                 destination: Text("Search"),
                 label: {

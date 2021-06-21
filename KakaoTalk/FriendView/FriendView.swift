@@ -10,7 +10,12 @@ import SwiftUI
 struct FriendView: View {
     var body: some View {
             List{
-                MyProfile()
+                NavigationLink(
+                    destination: Text("My Profile Detail View"),
+                    label: {
+                        MyProfile()
+                    })
+                
                 
                 Section(header:
                 Text("내 멀티프로필")
@@ -62,6 +67,10 @@ struct FriendView: View {
             } // List
             .listStyle(SidebarListStyle())
             .navigationTitle("")
+            .tabItem {
+                Image(systemName: "person")
+            }
+            .tag(0)
         }
     }
 

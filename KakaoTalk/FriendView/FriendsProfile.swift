@@ -24,9 +24,9 @@ struct FriendsProfile: View {
                     .frame(width: 50, height: 50)
                 VStack(alignment: .leading){
                     Text(name)
-                        .font(.title3)
+                        .font(.system(size: 18))
                     Text(stateMsg)
-                        .font(.footnote)
+                        .font(.system(size: 12))
                         .foregroundColor(.secondary)
                         .lineLimit(1)
                 } // VStack
