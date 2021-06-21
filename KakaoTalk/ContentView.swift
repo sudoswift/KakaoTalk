@@ -23,14 +23,19 @@ struct ContentView: View {
                         ToolbarItemGroup(placement: .bottomBar){
                             Image(systemName: "person")
                                 .font(.system(size: 25))
+                                .padding(.horizontal, 20)
                             Image(systemName: "message")
                                 .font(.system(size: 25))
+                                .padding(.horizontal, 20)
                             Image(systemName: "number")
                                 .font(.system(size: 25))
+                                .padding(.horizontal, 20)
                             Image(systemName: "bag")
                                 .font(.system(size: 25))
+                                .padding(.horizontal, 20)
                             Image(systemName: "line.horizontal.3")
                                 .font(.system(size: 25))
+                                .padding(.horizontal, 20)
                         } // ToolbarItemGroup BottomBar
                     } // FreindView's Toolbar
                         .navigationBarTitle("", displayMode: .inline)
