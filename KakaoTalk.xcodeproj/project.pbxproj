@@ -17,6 +17,11 @@
 		6F8A4DA12675E9C500B616D0 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A4DA02675E9C500B616D0 /* ShoppingView.swift */; };
 		6F8A4DA32675E9CE00B616D0 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A4DA22675E9CE00B616D0 /* MoreView.swift */; };
 		6F8A4DA52675EB9800B616D0 /* FriendViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A4DA42675EB9800B616D0 /* FriendViewToolbar.swift */; };
+		6F9DDE282680B53800A9F322 /* PageOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DDE272680B53800A9F322 /* PageOne.swift */; };
+		6F9DDE2A2680B5A500A9F322 /* PageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DDE292680B5A500A9F322 /* PageTwo.swift */; };
+		6F9DDE2C2680B5D100A9F322 /* PageThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DDE2B2680B5D100A9F322 /* PageThree.swift */; };
+		6F9DDE2E2680B5F600A9F322 /* PageFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DDE2D2680B5F600A9F322 /* PageFour.swift */; };
+		6F9DDE302680B62000A9F322 /* PageFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DDE2F2680B62000A9F322 /* PageFive.swift */; };
 		6FA691D52674AE5E005B47EB /* FriendsProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA691D42674AE5E005B47EB /* FriendsProfile.swift */; };
 		6FA691D72674AEC0005B47EB /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA691D62674AEC0005B47EB /* MyProfile.swift */; };
 		6FEF3DCB26734AB5003F7AD6 /* KakaoTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEF3DCA26734AB5003F7AD6 /* KakaoTalkApp.swift */; };
@@ -36,6 +41,11 @@
 		6F8A4DA02675E9C500B616D0 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
 		6F8A4DA22675E9CE00B616D0 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		6F8A4DA42675EB9800B616D0 /* FriendViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewToolbar.swift; sourceTree = "<group>"; };
+		6F9DDE272680B53800A9F322 /* PageOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOne.swift; sourceTree = "<group>"; };
+		6F9DDE292680B5A500A9F322 /* PageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwo.swift; sourceTree = "<group>"; };
+		6F9DDE2B2680B5D100A9F322 /* PageThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThree.swift; sourceTree = "<group>"; };
+		6F9DDE2D2680B5F600A9F322 /* PageFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFour.swift; sourceTree = "<group>"; };
+		6F9DDE2F2680B62000A9F322 /* PageFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFive.swift; sourceTree = "<group>"; };
 		6FA691D42674AE5E005B47EB /* FriendsProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsProfile.swift; sourceTree = "<group>"; };
 		6FA691D62674AEC0005B47EB /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
 		6FEF3DC726734AB5003F7AD6 /* KakaoTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +72,7 @@
 			children = (
 				6F8A4D982675E94D00B616D0 /* ChatView.swift */,
 				6F8A4D9A2675E96600B616D0 /* OpenChatView.swift */,
+				6F9DDE292680B5A500A9F322 /* PageTwo.swift */,
 			);
 			path = ChatView;
 			sourceTree = "<group>";
@@ -70,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				6F8A4D9C2675E97D00B616D0 /* NewsView.swift */,
+				6F9DDE2B2680B5D100A9F322 /* PageThree.swift */,
 			);
 			path = NewsView;
 			sourceTree = "<group>";
@@ -78,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6F8A4DA02675E9C500B616D0 /* ShoppingView.swift */,
+				6F9DDE2D2680B5F600A9F322 /* PageFour.swift */,
 			);
 			path = ShoppingView;
 			sourceTree = "<group>";
@@ -86,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				6F8A4DA22675E9CE00B616D0 /* MoreView.swift */,
+				6F9DDE2F2680B62000A9F322 /* PageFive.swift */,
 			);
 			path = MoreView;
 			sourceTree = "<group>";
@@ -100,6 +114,7 @@
 				6FA691D62674AEC0005B47EB /* MyProfile.swift */,
 				6F8A4DA42675EB9800B616D0 /* FriendViewToolbar.swift */,
 				6F44D4F026763DCF00123C80 /* fourSection.swift */,
+				6F9DDE272680B53800A9F322 /* PageOne.swift */,
 			);
 			path = FriendView;
 			sourceTree = "<group>";
@@ -214,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9DDE302680B62000A9F322 /* PageFive.swift in Sources */,
+				6F9DDE2E2680B5F600A9F322 /* PageFour.swift in Sources */,
 				6FEF3DCD26734AB5003F7AD6 /* ContentView.swift in Sources */,
 				6FA691D72674AEC0005B47EB /* MyProfile.swift in Sources */,
 				6F8A4DA52675EB9800B616D0 /* FriendViewToolbar.swift in Sources */,
@@ -223,11 +240,14 @@
 				6F3DEE382673A82900BA64C5 /* FriendView.swift in Sources */,
 				6F8A4D992675E94D00B616D0 /* ChatView.swift in Sources */,
 				6F8A4DA32675E9CE00B616D0 /* MoreView.swift in Sources */,
+				6F9DDE282680B53800A9F322 /* PageOne.swift in Sources */,
 				6F44D4F126763DCF00123C80 /* fourSection.swift in Sources */,
 				6F81D12A2674B33C00AD1650 /* FriendsProfileNoMusic.swift in Sources */,
 				6F8A4D9B2675E96600B616D0 /* OpenChatView.swift in Sources */,
+				6F9DDE2C2680B5D100A9F322 /* PageThree.swift in Sources */,
 				6FEF3DCB26734AB5003F7AD6 /* KakaoTalkApp.swift in Sources */,
 				6F81D1282674B1B500AD1650 /* FriendsList.swift in Sources */,
+				6F9DDE2A2680B5A500A9F322 /* PageTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
