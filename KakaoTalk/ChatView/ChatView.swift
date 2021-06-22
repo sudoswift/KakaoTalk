@@ -9,19 +9,17 @@ import SwiftUI
 
 struct ChatView: View {
     
-    var userName: String
-    var chatPreview: String
-    var msgTime: String
-    var receivedMsg: String
-    var leftMsg: Bool
-    
     var body: some View {
-        ChatView(userName: "테스트", chatPreview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id magna nisi. Etiam urna risus, aliquet eget finibus non, pharetra nec libero. Sed volutpat, ex non dictum dapibus, augue velit tincidunt sapien, semper tempus purus mi id eros.", msgTime: "어제", receivedMsg: "5", leftMsg: false)
+        List{
+            Text("Hello! This is Chat View")
+        } // List
+        .listStyle(SidebarListStyle())
+        .navigationTitle("")
     }
 }
 
 struct ChatView_Previews: PreviewProvider {
     static var previews: some View {
-        ChatView(userName: "테스트", chatPreview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id magna nisi. Etiam urna risus, aliquet eget finibus non, pharetra nec libero. Sed volutpat, ex non dictum dapibus, augue velit tincidunt sapien, semper tempus purus mi id eros.", msgTime: "어제", receivedMsg: "5", leftMsg: false)
+        ChatView()
     }
 }

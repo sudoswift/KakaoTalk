@@ -10,7 +10,7 @@ import SwiftUI
 struct PageTwo: View {    
     var body: some View {
         NavigationView{
-            Text("Hello")
+            ChatView()
                 .toolbar{
                     ToolbarItemGroup(placement: .navigationBarLeading){
                         Text("채팅").font(.title)

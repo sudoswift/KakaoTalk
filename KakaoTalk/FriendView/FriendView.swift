@@ -67,10 +67,6 @@ struct FriendView: View {
             } // List
             .listStyle(SidebarListStyle())
             .navigationTitle("")
-            .tabItem {
-                Image(systemName: "person")
-            }
-            .tag(0)
         }
     }
 

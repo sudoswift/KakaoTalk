@@ -57,9 +57,6 @@ struct FriendsList_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             FriendsList()
-            FriendsList()
-            FriendsList()
-            FriendsList()
         }
     }
 }
