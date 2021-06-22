@@ -79,12 +79,12 @@
 			isa = PBXGroup;
 			children = (
 				6F8A4D982675E94D00B616D0 /* ChatView.swift */,
-				6F286AA7268198000080F1F1 /* OpenChatList.swift */,
+				6F286AA5268197ED0080F1F1 /* OpenChatView.swift */,
 				6F286AA3268183860080F1F1 /* ChatList.swift */,
+				6F286AA7268198000080F1F1 /* OpenChatList.swift */,
 				6F9DDE312680D79600A9F322 /* ChatPreset.swift */,
 				6F286AA1268182560080F1F1 /* ChatViewToolbar.swift */,
 				6F9DDE292680B5A500A9F322 /* PageTwo.swift */,
-				6F286AA5268197ED0080F1F1 /* OpenChatView.swift */,
 			);
 			path = ChatView;
 			sourceTree = "<group>";
