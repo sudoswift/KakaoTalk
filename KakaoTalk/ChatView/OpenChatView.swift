@@ -2,14 +2,14 @@
 //  OpenChatView.swift
 //  KakaoTalk
 //
-//  Created by izvern on 2021/06/13.
+//  Created by izvern on 2021/06/22.
 //
 
 import SwiftUI
 
 struct OpenChatView: View {
     var body: some View {
-        Text("Hello. This is Open Chat View!")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 

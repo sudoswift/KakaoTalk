@@ -14,7 +14,7 @@ struct PageTwo: View {
                 .toolbar{
                     ToolbarItemGroup(placement: .navigationBarLeading){
                         Text("채팅").font(.title)
-                        Text("오픈채팅").font(.title)
+                        Text("오픈채팅").font(.title).foregroundColor(.secondary)
                     } //ToolbarItemGroup Leading
                     ToolbarItemGroup(placement: .navigationBarTrailing){
                         ChatViewToolbar()
