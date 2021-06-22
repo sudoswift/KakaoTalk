@@ -26,6 +26,7 @@ struct PageTwo: View {
         .tabItem {
             Image(systemName: "message")
         } // tabItem
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

@@ -11,7 +11,7 @@ struct ChatView: View {
     
     var body: some View {
         List{
-            Text("Hello! This is Chat View")
+            ChatList()
         } // List
         .listStyle(SidebarListStyle())
         .navigationTitle("")
