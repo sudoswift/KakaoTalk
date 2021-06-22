@@ -7,10 +7,19 @@
 
 import SwiftUI
 
-struct PageTwo: View {
+struct PageTwo: View {    
     var body: some View {
         NavigationView{
-            Text("ChatView")
+            Text("Hello")
+                .toolbar{
+                    ToolbarItemGroup(placement: .navigationBarLeading){
+                        Text("채팅").font(.title)
+                        Text("오픈채팅").font(.title)
+                    } //ToolbarItemGroup Leading
+                    ToolbarItemGroup(placement: .navigationBarTrailing){
+                        ChatViewToolbar()
+                    } // ToolbarItemGroup Trailing
+                } // FreindView's Toolbar
             .navigationBarTitle("", displayMode: .inline)
             .navigationBarHidden(false)
         } // Navigation View 2
